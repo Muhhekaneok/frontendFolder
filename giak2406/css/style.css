@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.cub0 {
+    left: 0px;
+    top: 0px;
+    background-color: darkviolet;
+}
+
+.cub1 {
+    left: 100px;
+    top: 100px;
+    background-color: green;
+}
+
+.cub2 {
+    right: 0px;
+    top: 0px;
+    background-color: blue;
+}
+
+.cub3 {
+    right: 100px;
+    top: 100px;
+    background-color: brown;
+}
+
+.cub4 {
+    left: 0px;
+    bottom: 0px;
+    background-color: yellow;
+}
+
+.cub5 {
+    left: 100px;
+    bottom: 100px;
+    background-color: red;
+}
+
+.cub6 {
+    right: 0px;
+    bottom: 0px;
+    background-color: orangered;
+}
+
+.cub7 {
+    right: 100px;
+    bottom: 100px;
+    background-color: wheat;
+}
+
+.center1 {
+    left: 50%;
+    top: 50%;
+    background-color: aqua;
+}
+
+.center2 {
+    right: 50%;
+    top: 50%;
+    background-color: cadetblue;
+}
+
+.center3 {
+    left: 50%;
+    bottom: 50%;
+    background-color: chartreuse;
+}
+
+.center4 {
+    right: 50%;
+    bottom: 50%;
+    background-color: darkolivegreen;
+}
+
+.center5 {
+    left: 50%;
+    top: 50%;
+    background-color: aqua;
+    transform: translate(100%, 100%);
+}
+
+.center6 {
+    right: 50%;
+    top: 50%;
+    background-color: cadetblue;
+    transform: translate(-100%, 100%);
+}
+
+.center7 {
+    left: 50%;
+    bottom: 50%;
+    background-color: chartreuse;
+    transform: translate(100%, -100%);
+}
+
+.center8 {
+    right: 50%;
+    bottom: 50%;
+    background-color: darkolivegreen;
+    transform: translate(-100%, -100%);
+}
+
+.center0 {
+    z-index: 1;
+    right: 50%;
+    bottom: 50%;
+    background-color: black;
+    transform: translate(50%, 50%);
+}
+
+/* .center0 {
+    z-index: 1;
+    right: 50%;
+    bottom: 50%;
+    background-color: black;
+    transform: translate(50%, 50%);
+}
+
+.center1 {
+    left: 50%;
+    top: 50%;
+    transform: translate(-150%, 50%);
+    background-color: aqua;
+}
+
+.center2 {
+    right: 50%;
+    top: 50%;
+    transform: translate(150%, 50%);
+    background-color: cadetblue;
+}
+
+.center3 {
+    left: 50%;
+    bottom: 50%;
+    transform: translate(50%, -50%);
+    background-color: chartreuse;
+}
+
+.center4 {
+    right: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    background-color: darkolivegreen;
+} */

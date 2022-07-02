@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    color: magenta;
+}
+
+p {
+    margin: 20px 0;
+    outline: 10px solid black;
+    outline-offset: -1px;
+    padding: 15px;
+    text-align: center;
+}
+
+.intro {
+    background-color: brown;
+}
+
+.round {
+    border-radius: 30px;
+}
+
+.hobby {
+    background-color: blanchedalmond;
+}
+
+.work {
+    background-color: aquamarine;
+}
+
+#products {
+    width: 200px;
+}

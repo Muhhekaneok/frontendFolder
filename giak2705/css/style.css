@@ -1,0 +1,30 @@
+#main p {
+    padding: 5px;
+    border: 2px solid black;
+}
+
+#main .about {
+    background-color: darkviolet;
+}
+
+#main .lesson {
+    background-color: darkcyan;
+}
+
+#films li {
+    padding: 10px;
+    border: 2px solid black;
+}
+
+#films ol {
+    list-style: lower-alpha;
+}
+
+#films ul {
+    list-style: none;
+    /* width: 60px; */
+}
+
+#films img {
+    width: 400px;
+}

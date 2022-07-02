@@ -1,0 +1,62 @@
+* {
+    padding: 0px;
+    margin: 0;
+}
+
+.post {
+    width: 200px;
+    height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 15px;
+    transition: background-color 0.5s, height 0.5s cubic-bezier(1, 0.27, 0.14, -0.26);
+    transition-delay: 0.5s;
+}
+
+
+.post:hover {
+    background-color: bisque;
+    height: 200px;
+}
+
+.post .boldLine {
+    background-color: blue;
+    height: 0;
+    width: 0;
+    transition: height 0.5s, width 0.5s;
+    transition-timing-function: cubic-bezier(1, 0.27, 0.14, -0.26);
+    transition-delay: 0.5s;
+}
+
+.post:hover .boldLine {
+    height: 20px;
+    width: 100%;
+}
+
+.card {
+    padding: 10px;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 5px;
+    position: relative;
+}
+
+[data-content]::after {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(50%, -40%);
+    content: attr(data-content);
+    padding: 0 5px;
+    min-width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    background-color: darkviolet;
+    color: white;
+}

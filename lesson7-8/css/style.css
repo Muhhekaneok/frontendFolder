@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    border: 1px solid black;
+    background-color: bisque;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+}
+
+img {
+    width: 140px;
+}
+
+.progress_container {
+    width: 200px;
+    height: 20px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.progress_line {
+    height: 100%;
+    background-color: lightseagreen;
+    position: absolute;
+}
+
+.card1 {
+    width: 50%;
+}
+
+.card2 {
+    width: 10%;
+}
+
+.progress_value {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}

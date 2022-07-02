@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="sdf">
+        <label for="">
+            <p>Input e-mail:</p>
+            <input type="email" placeholder="Email" class="inputText">
+        </label>
+
+        <label for="">
+            <p>Input password:</p>
+            <input type="password" placeholder="Password" class="inputText">
+        </label>
+        <br><br><br><br>
+
+        <textarea name="" id="" cols="30" rows="4"></textarea>
+
+        <br><br>
+
+        <p>What want to learn</p>
+        <label for="">
+            <input type="checkbox" name="languages" value="javascript"> JavaScript
+        </label>
+
+        <label for="">
+            <input type="checkbox" name="languages" value="python"> Phyton
+        </label>
+
+        <label for="">
+            <input type="checkbox" name="languages" value="java"> Java
+        </label>
+
+        <p>Which operating system do I want to choose?</p>
+        <label for="">
+            <input type="checkbox" name="operation_systems" value="windows"> Windows
+        </label>
+
+        <label for="">
+            <input type="checkbox" name="operation_systems" value="mac"> Mac
+        </label>
+
+        <label for="">
+            <input type="checkbox" name="operation_systems" value="ubuntu"> Ubuntu
+        </label>
+
+
+        <p>What city do I live in?</p>
+        <label for="">
+            <input type="radio" name="cities" value="berlin"> Berlin
+        </label>
+
+        <label for="">
+            <input type="radio" name="cities" value="paris"> Paris
+        </label>
+
+        <label for="">
+            <input type="radio" name="cities" value="london"> London
+        </label>
+
+        <!--
+            languages: javascript,
+            cities: berlin
+
+            type - определяет назначение инпута;
+            name - определяет к какой группе относится инпут (для работы c формой в JS);
+            value - определяет передаваемое значение (для работы c формой в JS);
+        -->
+
+
+
+        <!-- <label for="password11">Input password:</label>
+        <input type="password" placeholder="Password" id="password11"> -->
+
+        <br> <br>
+        <button type="submit">Send</button>
+    </form>
+</body>
+
+</html>

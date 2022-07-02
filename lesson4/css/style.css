@@ -1,0 +1,20 @@
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    width: 100px;
+}
+
+/* td {
+    height: 30px;
+} */
+
+img {
+    width: 40px;
+}
+
+caption {
+    text-align: start;
+}

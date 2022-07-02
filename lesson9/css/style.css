@@ -1,0 +1,17 @@
+/* textarea {
+    resize: none;
+} */
+
+.inputText:hover {
+    outline: none;
+    border-color: green;
+    background-color: black;
+    color: white;
+}
+
+.inputText:focus {
+    outline: none;
+    border-color: red;
+    background-color: black;
+    color: red;
+}
