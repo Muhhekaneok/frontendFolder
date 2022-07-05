@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.text {
+    font-size: 24px;
+    width: 500px;
+    border: 1px solid black;
+}
+
+@media screen and (max-width: 640px) and (min-width: 500px) {
+    .text {
+        width: 200px;
+        color: red;
+        border-color: darkviolet;
+    }
+}
+
+@media print {
+    .text {
+        color: green;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .greeting {
+        display: none;
+    }
+}
+
+/* 
+1. Тип носителя (screen, print, etc)
+2. Логический оператор (and, ',', not)
+3. Медиа-функция (max-width, min-width, etc)
+*/
